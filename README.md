@@ -29,7 +29,7 @@ No class on: Oct 12, Nov 11, Nov 25, Dec 23, Dec 28, Dec 30
   <tr>
     <td>Wed, Sep 30</td>
     <td>Introduction</td>
-    <td><a href="https://github.com/ga-students/MOB-NYC-5/tree/master/Session0">Getting Started</a><br>
+    <td><a href="https://github.com/ga-students/MOB-NYC-5/blob/master/Sessions/Session0">Getting Started</a><br>
 </td>
   </tr>
   <tr>
