@@ -41,7 +41,7 @@ No class on: Oct 12, Nov 11, Nov 25, Dec 23, Dec 28, Dec 30
   </tr>
   <tr>
     <td>Wed, Oct 7</td>
-    <td></td>
+    <td>Intro to Swift</td>
     <td></td>
   </tr>
   <tr>
