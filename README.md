@@ -35,7 +35,7 @@ No class on: Oct 12, Nov 11, Nov 25, Dec 23, Dec 28, Dec 30
   <tr>
     <td>Mon, Oct 5</td>
     <td><strong>UIViewController & UIView</strong><br>What are they and what's the difference?</td>
-    <td><a href="https://github.com/ga-students/MOB-NYC-5/blob/master/Sessions/Session1/Lesson01.pdf">Intro to UIView & UIViewController</a<br>
+    <td><a href="https://github.com/ga-students/MOB-NYC-5/blob/master/Sessions/Session1/Lesson01.pdf">Intro to UIView & UIViewController</a><br>
     <a href="https://github.com/ga-students/MOB-NYC-5/blob/master/Sessions/Session1/MOB_Week%201%20Assignment.pdf">Assignment 1</a
     </td>
   </tr>
