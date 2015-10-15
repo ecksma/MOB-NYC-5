@@ -4,7 +4,7 @@
 
 2. Create a function named convertToCelsius that takes in an argument `degreesInFarenheit` that is a Double and returns the degrees in Celsius (also a Double).
 
-3. Create a function similar to #2, but instead of converting to degrees it converts miles to meters.
+3. Create a function similar to #2, but instead of converting from Fº to Cº it converts miles to meters.
 
 # Classes
 
