@@ -21,7 +21,7 @@
     * Input should be a Double called taxAmount
     * if isOccupied is false, it should return 0
     * else it should return the numberOfResidents by the taxAmount
-  * hurricaneRiskQuotient
+  * hurricaneRiskQuotient (should return a number, you determine the type!)
     * if numberOfFloors is less than 5, return numberOfWindows times numberOfResidents
     * else if numberOfFloors is greater than or equal to 5 and less than or equal to 10, return 1.5 times number of residents times number of windows
     * else return numberOfResidents times numberOfFloors times heightInFeet
