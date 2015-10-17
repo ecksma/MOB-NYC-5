@@ -47,7 +47,7 @@ No class on: Oct 12, Nov 11, Nov 25, Dec 23, Dec 28, Dec 30
   <tr>
     <td>Wed, Oct 14</td>
     <td></td>
-    <td></td>
+    <td>- <a href="https://github.com/ga-students/MOB-NYC-5/blob/master/Sessions/Session3/Lesson03.pdf">Code + Storyboard & Classes</a></td>
   </tr>
   <tr>
     <td>Mon, Oct 19</td>
