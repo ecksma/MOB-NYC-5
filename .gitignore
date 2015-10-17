@@ -1,4 +1,4 @@
 *.key
 .DS_Store
-.docx
-.doc
+*.docx
+*.doc
