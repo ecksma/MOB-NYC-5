@@ -42,12 +42,16 @@ No class on: Oct 12, Nov 11, Nov 25, Dec 23, Dec 28, Dec 30
   <tr>
     <td>Wed, Oct 7</td>
     <td><strong>Intro to Swift</strong></td>
-    <td>- <a href="https://github.com/ga-students/MOB-NYC-5/blob/master/Sessions/Session2/Lesson02.pdf">Intro to Swift</a></td>
+    <td>- <a href="https://github.com/ga-students/MOB-NYC-5/blob/master/Sessions/Session2/Lesson02.pdf">Intro to Swift</a>
+    </td>
   </tr>
   <tr>
     <td>Wed, Oct 14</td>
-    <td></td>
-    <td>- <a href="https://github.com/ga-students/MOB-NYC-5/blob/master/Sessions/Session3/Lesson03.pdf">Code + Storyboard & Classes</a></td>
+    <td>Code + Storyboard & Classes</td>
+    <td>- <a href="https://github.com/ga-students/MOB-NYC-5/blob/master/Sessions/Session3/Lesson03.pdf">Code + Storyboard & Classes</a>
+        - <a href="https://github.com/ga-students/MOB-NYC-5/blob/master/Sessions/Session3/Assignment2.pdf">Assignment 2 (updated)</a> due on 10/21
+
+    </td>
   </tr>
   <tr>
     <td>Mon, Oct 19</td>
