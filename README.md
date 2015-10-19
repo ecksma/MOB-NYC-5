@@ -55,8 +55,15 @@ No class on: Oct 12, Nov 11, Nov 25, Dec 23, Dec 28, Dec 30
   </tr>
   <tr>
     <td>Mon, Oct 19</td>
-    <td></td>
-    <td></td>
+    <td><strong>Deeper Into Swift</strong><br>
+    <ul>
+    <li><a href="http://apple.co/1LYBh3N">Collection Types</a>
+    <li><a href="http://bit.ly/1RjfiZi">Inheritance & Protocols</a>
+    <li><a href="http://apple.co/1MO0XVM">Inheritance</a>
+    </ul>
+    
+    </td>
+    <td>- <a href="https://github.com/ga-students/MOB-NYC-5/blob/master/Sessions/Session4/Lesson04.pdf">Deeper Into Swift</td>
   </tr>
   <tr>
     <td>Wed, Oct 21</td>
