@@ -60,6 +60,7 @@ No class on: Oct 12, Nov 11, Nov 25, Dec 23, Dec 28, Dec 30
     <li><a href="http://apple.co/1LYBh3N">Collection Types</a>
     <li><a href="http://bit.ly/1RjfiZi">Inheritance & Protocols</a>
     <li><a href="http://apple.co/1MO0XVM">Inheritance</a>
+    <li><a href="http://apple.co/1LZBfPm">Protocols</a>
     </ul>
     
     </td>
