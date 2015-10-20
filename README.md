@@ -64,7 +64,9 @@ No class on: Oct 12, Nov 11, Nov 25, Dec 23, Dec 28, Dec 30
     </ul>
     
     </td>
-    <td>- <a href="https://github.com/ga-students/MOB-NYC-5/blob/master/Sessions/Session4/Lesson04.pdf">Deeper Into Swift</td>
+    <td>- <a href="https://github.com/ga-students/MOB-NYC-5/blob/master/Sessions/Session4/Lesson04.pdf">Deeper Into Swift<br>
+    - <a href="https://github.com/ga-students/MOB-NYC-5/blob/master/Sessions/Session4/Lesson04.playground/Contents.swift">Playground
+    </td>
   </tr>
   <tr>
     <td>Wed, Oct 21</td>
