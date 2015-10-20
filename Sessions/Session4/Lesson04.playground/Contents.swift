@@ -5,12 +5,12 @@
 */
 
 
-var shoppingList = ["Eggs", "Milk"]
+var shoppingList = ["Eggs", "Milk", "Cheese"]
 
 if shoppingList.isEmpty {
     print("add items")
 }
-else if shoppingList.count <= 2 {
+else if shoppingList.count <= 3 {
     print("add more items")
 }
 else {
@@ -29,6 +29,7 @@ var numberArray = [Int]()
 numberArray.isEmpty
 //numberArray.append("Hello world") //error
 numberArray.append(2)
+numberArray.insert(23, atIndex: 1)
 numberArray.count
 numberArray.contains(4)
 //Cannot add items if declared with let
@@ -42,13 +43,14 @@ Dictionary
 
 */
 
-var favoriteColors = ["Kishin" : "blue", "John" : "green"]
-favoriteColors["Kishin"]
+var favoriteColors = [String: String] ()
 favoriteColors["Kishin"] = "orange"
 favoriteColors["Kishin"]
 
-var hoursWorked = ["Kishin" : 22, "Kara" : 13]
-hoursWorked["Kara"] = 14
+//var hoursWorked = ["Kishin" : "22", "Kara" : 13]
+//hoursWorked["Kara"] = 12
+//hoursWorked.removeValueForKey("Kishin")
+//hoursWorked["Kishin"]
 
 var stringIntDictionary = [String: Int]()
 stringIntDictionary["Test"] = 33
@@ -78,15 +80,19 @@ for i in 0...2 {
     print(i)
 }
 
-
-var count = 7
-
-for var i = 0; i < count; i++ {
+for i in 0..<3 {
     print(i)
 }
 
-for var i = 0; i <= count; i++ {
+var count = 7
+
+for var i = 2; i == count; i = i + 2 {
     print(i)
+}
+
+var list = ["Eggs", "Milk", "Cheese"]
+for var i = 0; i < list.count; i++ {
+    print(list[i])
 }
 
 for i in 0..<count {
@@ -101,16 +107,15 @@ for i in 0...count {
 
 */
 
-
 class Animal {
     var numberOfLegs: Int
     var hasTail: Bool
-    var canSwim: Bool
+    var isCarnivore: Bool
     
-    init(numberOfLegs: Int, hasTail: Bool, canSwim: Bool) {
+    init(numberOfLegs: Int, hasTail: Bool, isCarnivore: Bool) {
         self.numberOfLegs = numberOfLegs
         self.hasTail = hasTail
-        self.canSwim = canSwim
+        self.isCarnivore = isCarnivore
     }
     
     func makeNoise() {
@@ -125,7 +130,7 @@ class Dog: Animal {
     init(hasSpots: Bool, breed: String) {
         self.hasSpots = hasSpots
         self.breed = breed
-        super.init(numberOfLegs: 4, hasTail: true, canSwim: false)
+        super.init(numberOfLegs: 4, hasTail: true, isCarnivore: false)
     }
     
     override func makeNoise() {
@@ -134,16 +139,47 @@ class Dog: Animal {
     }
 }
 
-
-protocol Swimmer {
-    func swim()
-}
-
-class Frog: Animal, Swimmer {
-    func swim() {
-        print("I'm swimming")
+class GoldenRetriever: Dog {
+    init() {
+        super.init(hasSpots: false, breed: "Golden Retriever")
+    }
+    
+    override func makeNoise() {
+        print("quiet bark")
     }
 }
 
+protocol Amphibious {
+    func swim()
+    func breatheUnderWater()
+}
+
+class Frog: Animal, Amphibious {
+    func swim() {
+        print("I'm swimming with \(numberOfLegs)")
+    }
+    
+    func breatheUnderWater() {
+        print("breathing as an animal")
+    }
+}
+
+class Boat: Amphibious {
+    func swim() {
+        print("I'm boating")
+    }
+    
+    func breatheUnderWater() {
+        print("I'm a boat. I don't breathe")
+    }
+}
+
+var boat = Boat()
+var frog = Frog(numberOfLegs: 4, hasTail: false, isCarnivore: false)
 
 
+var amphibians: [Amphibious] = [boat, frog]
+
+for amphibian in amphibians {
+    amphibian.breatheUnderWater()
+}
