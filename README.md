@@ -72,7 +72,9 @@ No class on: Oct 12, Nov 11, Nov 25, Dec 23, Dec 28, Dec 30
     <td>Wed, Oct 21</td>
     <td>
     <ul>
+      <td><strong>Optionals & UITableView</strong><br>
       <li><a href="#">Optionals</a>
+      </td>
     </ul>
     
     </td>
@@ -83,7 +85,9 @@ No class on: Oct 12, Nov 11, Nov 25, Dec 23, Dec 28, Dec 30
   </tr>
   <tr>
     <td>Mon, Oct 26</td>
-    <td></td>
+    <td><strong>While Loops, Structs, UIView</strong><br>
+      <li><a href="#">Structs</a>
+    </td>
     <td></td>
   </tr>
   <tr>
