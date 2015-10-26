@@ -85,7 +85,10 @@ No class on: Oct 12, Nov 11, Nov 25, Dec 23, Dec 28, Dec 30
   <tr>
     <td>Mon, Oct 26</td>
     <td><strong>While Loops, Structs, UIView</strong><br>
-      <li><a href="#">Structs</a>
+      <ul>
+      <li><a href="http://rshankar.com/difference-between-struct-and-class-in-swift/">Structs</a>
+      <li><a href="#">CGGeometry</a>http://mobbook.generalassemb.ly/week05/cells.html
+      </ul>
     </td>
     <td></td>
   </tr>
