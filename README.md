@@ -73,7 +73,7 @@ No class on: Oct 12, Nov 11, Nov 25, Dec 23, Dec 28, Dec 30
     <td>
     <strong>Optionals & UITableView</strong><br>
     <ul>
-      <li><a href="#">Optionals</a>
+      <li><a href="http://apple.co/1IBtuM4">Optionals</a>
     </ul>
     </td>
 
