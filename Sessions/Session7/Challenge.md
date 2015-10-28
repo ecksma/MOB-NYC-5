@@ -23,3 +23,11 @@
 6. Create a shopping center subclass of Place
 7. Each subclass should override the displayName computed property and return the class name + place name + dollar signs
  * A restaurant in the low price category should return "Restaurant: name - $"
+8. Add a UITableView, adopt the necessary protocols, etc.
+9. Create a list of Places in the UIViewController
+ * Can we make this a static variable?
+10. Display each place as a row using the subtitle style
+ * Set the title as the text of the textLabel
+ * Set the location as the detail text label
+ * Set the cell's imageView's image property to the corresponding venue
+   * Add your own images to t
