@@ -2,30 +2,29 @@
 
 import UIKit
 
-
 //Declaring an enum
-enum Month {
-    case January
-    case February 
-    case March
-    case April
-    case May
-    case June
-    case July
-    case August
-    case September
-    case October
-    case November
-    case December
-    
-    func getMonth(month: Month) {
-        
-    }
+enum Month: String {
+    case January = "Jan"
+    case February = "Feb"
+    case March = "Mar"
+    case April = "Apr"
+    case May = "May"
+    case June = "Jun"
+    case July = "Jul"
+    case August = "Aug"
+    case September = "Sep"
+    case October = "Oct"
+    case November = "Nov"
+    case December = "Dec"
 }
+
+Month.January.rawValue
+Month.July.rawValue
+Month.December
 
 //we can also comma separate cases and put them onto one line
 //Note: we do not need case before each value
-enum Season {
+enum Season: Int {
     case Winter, Summer, Spring, Fall
 }
 
@@ -46,6 +45,8 @@ enum TaskPriority: Int {
 }
 
 TaskPriority.High.sectionName()
+TaskPriority.High.rawValue
+
 
 struct Location {
     var latitude: Double
@@ -54,19 +55,29 @@ struct Location {
     static let coversionFactor = 2.2
 }
 
+
+
+
+
+
+
+
 UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: nil)
 var cell = UITableViewCell(style: .Default, reuseIdentifier: nil)
-cell.imageView?.image
 TaskPriority(rawValue: 0)
+TaskPriority(rawValue: 99)
+
+
+
 
 
 class Dog {
     static let dogNoise = "Bark bark"
     var defaultDogAge = 0
-    static var numberOfDogs = 1
+    static var numberOfDogs = 0
     
     func makeNoise() {
-        print("\(self.defaultDogAge) \(Dog.dogNoise)")
+        print("\(defaultDogAge) \(Dog.dogNoise)")
     }
     
     static func makeNoiseStatic() {
@@ -78,12 +89,10 @@ class Dog {
     }
 }
 
-Dog.makeNoiseStatic()
-var puppy = Dog()
-puppy.makeNoise()
-
 Dog.numberOfDogs
-Dog()
+var _ = Dog()
+Dog.numberOfDogs
+_ = Dog()
 Dog.numberOfDogs
 
 var age = 30
@@ -91,12 +100,12 @@ var age = 30
 switch age {
 case 0:
     print("You are 0 years old")
-case 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40:
+case 30...39:
     print("You are in your 30's")
 case 40...49:
     print("you are in your 40's")
 default:
-    print("You are not 20 and not 30")
+    print("You are not 30 and not 40")
 }
 
 
