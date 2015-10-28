@@ -16,7 +16,6 @@
     * If the price category is medium it should return "name - $$"
     * If the price category is high it should return "name - $$$"
     * If the price category is highest it should return "name - $$$$"
- 
 2. Create a restaurant sublcass of Place
 3. Create a museum subclass of Place
 4. Create a bar subclass of Place
