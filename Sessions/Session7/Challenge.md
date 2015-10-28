@@ -34,4 +34,5 @@
 11. Embed the view controller in a UINavigationController
 12. Create a segue to a second UIViewController
 13. Name the segue
-13. Implement the didSelectRowAtIndexPath method of UITableViewDelegate and perform the segue using performSegueWithIdentifier
+14. Implement the didSelectRowAtIndexPath method of UITableViewDelegate and perform the segue using performSegueWithIdentifier
+15. Create a second UIViewController subclass and have the second View Controller in storyboard implement that subclass
