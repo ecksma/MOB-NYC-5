@@ -30,4 +30,8 @@
  * Set the title as the text of the textLabel
  * Set the location as the detail text label
  * Set the cell's imageView's image property to the corresponding venue
-   * Add your own images to t
+   * Download the images zip file and add the images to the project in the "Assets" catalog
+11. Embed the view controller in a UINavigationController
+12. Create a segue to a second UIViewController
+13. Name the segue
+13. Implement the didSelectRowAtIndexPath method of UITableViewDelegate and perform the segue using performSegueWithIdentifier
