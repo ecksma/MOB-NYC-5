@@ -55,8 +55,8 @@ struct Location {
 }
 
 UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: nil)
-UITableViewCell(style: .Default, reuseIdentifier: nil)
-
+var cell = UITableViewCell(style: .Default, reuseIdentifier: nil)
+cell.imageView?.image
 TaskPriority(rawValue: 0)
 
 
@@ -103,7 +103,22 @@ default:
 
 
 
+class Animal {
+    var title: String {
+        get {
+            return "AAA"
+        }
+    }
+}
 
+class Frog: Animal {
+    override var title: String {
+        get {
+            var f = super.title
+            return "FROG \(f)"
+        }
+    }
+}
 
-
-
+var f = Frog()
+f.title
