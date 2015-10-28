@@ -21,5 +21,19 @@
 4. Create a bar subclass of Place
 5. Create a coffee subclass of Place
 6. Create a shopping center subclass of Place
+7. Each subclass should implement a detailText method that returns a category specific string
 7. Each subclass should override the displayName computed property and return the class name + place name + dollar signs
  * A restaurant in the low price category should return "Restaurant: name - $"
+8. Add a UITableView, adopt the necessary protocols, etc.
+9. Create a list of Places in the UIViewController
+ * Can we make this a static variable?
+10. Display each place as a row using the subtitle style
+ * Set the title as the text of the textLabel
+ * Use the detailText method to set the detailTextLabel text
+ * Set the cell's imageView's image property to the image based 
+   * Download the images zip file and add the images to the project in the "Assets" catalog
+11. Embed the view controller in a UINavigationController
+12. Create a segue to a second UIViewController
+13. Name the segue
+14. Implement the didSelectRowAtIndexPath method of UITableViewDelegate and perform the segue using performSegueWithIdentifier
+15. Create a second UIViewController subclass and have the second View Controller in storyboard implement that subclass
