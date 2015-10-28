@@ -1,6 +1,6 @@
 ### Challenge
 
-1) Create a Place class with the following properties:
+1. Create a Place class with the following properties:
   * `name` as a String
   * `location` as a Struct 
     * the struct should be named `Location` and have a `latitude` property and a `longitude` property, both of which should be doubles
@@ -17,15 +17,10 @@
     * If the price category is high it should return "name - $$$"
     * If the price category is highest it should return "name - $$$$"
  
-2) Create a restaurant sublcass of Place
-
-3) Create a museum subclass of Place
-
-4) Create a bar subclass of Place
-
-5) Create a coffee subclass of Place
-
-6) Create a shopping center subclass of Place
-
-7) Each subclass should override the displayName computed property and return the class name + place name + dollar signs
+2. Create a restaurant sublcass of Place
+3. Create a museum subclass of Place
+4. Create a bar subclass of Place
+5. Create a coffee subclass of Place
+6. Create a shopping center subclass of Place
+7. Each subclass should override the displayName computed property and return the class name + place name + dollar signs
  * A restaurant in the low price category should return "Restaurant: name - $"
