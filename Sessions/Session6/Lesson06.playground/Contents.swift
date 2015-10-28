@@ -28,6 +28,7 @@ repeat {
 
 class Square {
     var sideLength = 100
+    var coefficient = 2
     
     var area: Int {
         get {
@@ -35,6 +36,7 @@ class Square {
         }
         set(newArea) {
             sideLength = newArea / 2
+            coefficient = newArea / 10
         }
     }
 }
@@ -90,4 +92,5 @@ let rect = CGRectMake(0, 0, 100, 100)
 let view = UIView(frame: rect)
 view.backgroundColor = UIColor.redColor()
 
-
+var label = UILabel(frame: rect)
+label.text = "Hello"
