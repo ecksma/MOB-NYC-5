@@ -18,9 +18,14 @@
     * If the price category is highest it should return "name - $$$$"
  
 2) Create a restaurant sublcass of Place
+
 3) Create a museum subclass of Place
+
 4) Create a bar subclass of Place
+
 5) Create a coffee subclass of Place
+
 6) Create a shopping center subclass of Place
+
 7) Each subclass should override the displayName computed property and return the class name + place name + dollar signs
  * A restaurant in the low price category should return "Restaurant: name - $"
