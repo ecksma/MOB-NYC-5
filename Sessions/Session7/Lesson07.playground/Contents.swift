@@ -18,6 +18,13 @@ enum Month: String {
     case December = "Dec"
 }
 
+//class Birthday {
+//    var birthdayMonth: Month
+//}
+
+var s = "$"
+
+
 Month.January.rawValue
 Month.July.rawValue
 Month.December
@@ -123,7 +130,6 @@ class Animal {
 class Frog: Animal {
     override var title: String {
         get {
-            var f = super.title
             return "FROG \(f)"
         }
     }
