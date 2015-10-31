@@ -1,6 +1,6 @@
 ### Assignment
 
-1. Create an Event class with the following properties
+1. Create an Event class in a Playground with the following properties
   * `eventName` as a String
   * `eventDate` as a Struct
     * the struct should be named `Date` with a month, day and year property, each of type Int
