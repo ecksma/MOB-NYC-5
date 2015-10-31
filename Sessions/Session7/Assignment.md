@@ -9,7 +9,8 @@
   * `description` as a String
   * `isAllDay` as a Bool
   
-2. Make sure your code can run without any errors
+2. Create an array of 5 events
+3. Make sure your code can run without any errors
 3. Take a look at this cheatsheet. Let me know if you find it helpful
   * http://cdn3.raywenderlich.com/wp-content/uploads/2014/06/RW-Swift-Cheatsheet-0_6.pdf
 4. Read through this article. Ignore the sections on tuples and start at "Protocols". This is an intermediate article, so it may be a bit more difficult to understand. We are going to cover delegates next week. 
