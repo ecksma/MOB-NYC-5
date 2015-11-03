@@ -94,13 +94,13 @@ No class on: Oct 12, Nov 11, Nov 25, Dec 23, Dec 28, Dec 30
   </tr>
   <tr>
     <td>Wed, Oct 28</td>
-    <td></td>
-    <td></td>
+    <td><strong>Enum, Static, Switch</strong></td>
+    <td>- <a href="https://github.com/ga-students/MOB-NYC-5/blob/master/Sessions/Session7/Lesson07.pdf">Lesson 07</td>
   </tr>
   <tr>
     <td>Mon, Nov 2</td>
-    <td></td>
-    <td></td>
+    <td><strong>Delegates, </strong></td>
+    <td>- <a href="https://github.com/ga-students/MOB-NYC-5/blob/master/Sessions/Session8/Lesson08.pdf">Lesson 08</td>
   </tr>
   <tr>
     <td>Wed, Nov 4</td>
