@@ -99,7 +99,7 @@ No class on: Oct 12, Nov 11, Nov 25, Dec 23, Dec 28, Dec 30
   </tr>
   <tr>
     <td>Mon, Nov 2</td>
-    <td><strong>Delegates, Segues, Casting</strong></td>
+    <td><strong>Delegates, Segues, AnyObject, Casting</strong></td>
     <td>- <a href="https://github.com/ga-students/MOB-NYC-5/blob/master/Sessions/Session8/Lesson08.pdf">Lesson 08</td>
   </tr>
   <tr>
